@@ -18,6 +18,9 @@ body{
 	color:gray;
 	text-decoration:none;
 }
+.nav img{
+	width:5%;
+}
 article{
 	text-align:justify;
 }
