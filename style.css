@@ -3,32 +3,52 @@ body{
 	font-family:sans-serif;
 }
 
+
 .nav{
-	background-color:rgb(41,50,109);
+	float:right;
 	padding:1%;
 	text-align:right;
 	font-weight:bold;
+	background-color:rgb(41,50,109);
+	width:15%;
+	margin:0%;
+	clear:both;
 }
 
 .nav a, .nav a:visited{
 	color:white;
 	text-decoration:none;
 }
+
 .nav a:hover{
 	color:gray;
 	text-decoration:none;
 }
+
 .nav img{
-	width:5%;
+	position:relative;
+	width:100%;
 }
+
+.expanded_menu{
+	display:none;
+}
+
+.bar:visited + .expanded_menu{
+	display:block;
+}
+
+.bar:visited + .nav{
+	display:none;
+}
+
 article{
 	text-align:justify;
 }
 
 .carrousel-image{
 	display:flex;
-	flex-direction:row;
-	width:300%;
+	flex-direction:column;
 	position:relative;
 	text-align: left;
 	overflow:hidden;
