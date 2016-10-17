@@ -1,0 +1,53 @@
+body{
+	background-color:rgb(241,214,163);
+	font-family:sans-serif;
+}
+
+.nav{
+	background-color:rgb(41,50,109);
+	padding:1%;
+	text-align:right;
+	font-weight:bold;
+}
+
+.nav a, .nav a:visited{
+	color:white;
+	text-decoration:none;
+}
+.nav a:hover{
+	color:gray;
+	text-decoration:none;
+}
+article{
+	text-align:justify;
+}
+
+.carrousel-image{
+	display:flex;
+	flex-direction:row;
+}
+/*Begin Footer*/
+footer{
+	width:100%;
+	background-color:rgb(53,63,151);
+	font-size:18px;
+	padding:0px;
+	margin:0px;
+	color:white;
+	font-weight:bold;
+	padding:1%;
+}
+
+footer p{
+	text-align:right;
+}
+
+footer img{
+	width:2%;
+	height:2%;
+}
+.copyright{
+	font-size:60%;
+	display:block;
+}
+/*End Footer*/
