@@ -25,6 +25,10 @@ article{
 .carrousel-image{
 	display:flex;
 	flex-direction:row;
+	width:300%;
+	position:relative;
+	text-align: left;
+	overflow:hidden;
 }
 /*Begin Footer*/
 footer{
