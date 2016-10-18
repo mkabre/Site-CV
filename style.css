@@ -9,6 +9,7 @@ body{
 .main_body{
 	display:flex;
 	flex-direction:column;
+	margin-right:5%;
 }
 
 /*Begin Nav Bar*/
@@ -18,7 +19,7 @@ body{
 	text-align:right;
 	font-weight:bold;
 	background-color:rgb(41,50,109);
-	width:90%;
+	width:100%;
 	margin:0%;
 	height:100%;
 	border-radius:15px;
@@ -58,14 +59,16 @@ article{
 	text-align:justify;
 }
 
+/*Begin Carrousel*/
+
 .carrousel-image{
 	overflow:hidden;
 }
-	.carrousel-image figure{
+.carrousel-image figure{
 	display:flex;
 	flex-direction:row;
 	position:relative;
-	width:300%;
+	width:400%;
 	text-align: left;
 	margin:0%;
 }
@@ -99,6 +102,8 @@ article{
 .carrousel-image figure img:hover {
 	opacity:1;
 }
+/*End Carrousel*/
+
 /*Begin Footer*/
 footer{
 
