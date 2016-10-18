@@ -48,13 +48,10 @@ body{
 	display:none;
 }
 
-.bar:visited + .expanded_menu{
+.bar:hover + .expanded_menu{
 	display:block;
 }
 
-.bar:visited + .nav{
-	display:none;
-}
 
 article{
 	text-align:justify;
