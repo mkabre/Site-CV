@@ -9,8 +9,9 @@ body{
 .main_body{
 	display:flex;
 	flex-direction:column;
-
 }
+
+/*Begin Nav Bar*/
 .nav{
 	float:right;
 	padding:1%;
@@ -22,18 +23,6 @@ body{
 	height:100%;
 	border-radius:15px;
 }
-
-.nav a {
-	color:white;
-	text-decoration:none;
-}
-
-.expanded_menu a:visited{
-	color:gray;
-	text-decoration:none;
-}
-
-
 
 .nav img{
 	position:relative;
@@ -49,24 +38,23 @@ body{
 	display:none;
 }
 
-.expanded_menu li{
-	margin:20% 5% 0% 0%;
-	font-size: 6em;
-
-}
-
 .bar:hover + .expanded_menu{
 	display:block;
 }
 
-.expanded_menu a:hover +.expanded_menu{
-	display:block;
+.expanded_menu a {
+	color:white;
+	text-decoration:none;
+	margin:20% 5% 0% 0%;
+	font-size: 6em;
 }
 
-.bar:hover + .nav{
-	width:20%;
+.expanded_menu a:visited{
+	color:gray;
+	text-decoration:none;
 }
 
+/*End Nav Bar*/
 
 article{
 	text-align:justify;
