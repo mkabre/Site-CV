@@ -1,18 +1,26 @@
 body{
 	background-color:rgb(241,214,163);
 	font-family:sans-serif;
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:flex-start;
 }
 
+.main_body{
+	display:flex;
+	flex-direction:column;
 
+}
 .nav{
 	float:right;
 	padding:1%;
 	text-align:right;
 	font-weight:bold;
 	background-color:rgb(41,50,109);
-	width:15%;
+	width:90%;
 	margin:0%;
 	clear:both;
+	height:100%;
 }
 
 .nav a, .nav a:visited{
@@ -27,7 +35,8 @@ body{
 
 .nav img{
 	position:relative;
-	width:100%;
+	width:70%;
+	margin:auto;
 }
 
 .expanded_menu{
