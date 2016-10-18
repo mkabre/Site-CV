@@ -35,7 +35,7 @@ body{
 
 }
 
-.bar:hover + .expanded_menu{
+.bar:focus + .expanded_menu, .bar:hover + .expanded_menu{
 	display:block;
 	margin-top:13%;
 	background-color:slategray;
@@ -47,6 +47,7 @@ body{
 	border:2px solid gray;
 	background-color:none;
 	width:100%;
+	margin:0;
 }
 
 .expanded_menu a {
@@ -74,7 +75,6 @@ body{
 
 
 }
-
 
 /*End Nav Bar*/
 
@@ -146,8 +146,8 @@ footer{
 
 
 .copyright{
-	font-size:60%;
 	display:block;
 	padding-top:2%;
+	margin:0;
 }
 /*End Footer*/
