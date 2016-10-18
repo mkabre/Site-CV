@@ -9,30 +9,29 @@ body{
 .main_body{
 	display:flex;
 	flex-direction:column;
-	margin-right:5%;
 }
 
 /*Begin Nav Bar*/
 .nav{
-	float:right;
-	padding:1%;
 	text-align:right;
 	font-weight:bold;
 	background-color:rgb(41,50,109);
 	width:100%;
 	margin:0%;
+	padding:auto;
 	height:100%;
 	border-radius:15px;
+	text-align:left;
 }
 
 .nav img{
 	position:relative;
-	width:70%;
-	margin:20px;
+	width:100%;
+	padding-top:20%;
 }
 
 .nav li{
-	margin:auto;
+	padding:auto;
 }
 
 .expanded_menu{
@@ -41,11 +40,13 @@ body{
 
 .bar:hover + .expanded_menu{
 	display:block;
+	margin-top:13%;
 }
 
 .expanded_menu a {
 	color:white;
 	text-decoration:none;
+
 }
 
 .expanded_menu a:hover{
@@ -53,10 +54,17 @@ body{
 	text-decoration:none;
 }
 
+.expanded_menu li{
+	margin-top:13%;
+	text-align:right;
+	font-size:5em;
+}
+
 /*End Nav Bar*/
 
 article{
 	text-align:justify;
+	padding:2%;
 }
 
 /*Begin Carrousel*/
@@ -68,7 +76,7 @@ article{
 	display:flex;
 	flex-direction:row;
 	position:relative;
-	width:400%;
+	width:500%;
 	text-align: left;
 	margin:0%;
 }
@@ -76,27 +84,28 @@ article{
 
 @keyframes slidy {
   0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
+  15% { left: 0%; }
+  20% { left: -100%; }
+  35% { left: -100%; }
+  40% { left: -200%; }
+  55% { left: -200%; }
+  60% { left: -300%; }
   75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
+  80% { left: -400%; }
+	95% { left: -400%; }
 }
 
 .carrousel-image figure img {
   position: relative;
-  width: 900%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
+  margin: 0px;
   left: 0;
-  text-align: left;
   border-radius:15px;
   animation: 15s slidy infinite;
-  opacity: 0.6;
+  opacity: 0.7;
+  -webkit-transition: opacity 2s ease-out;
+  -moz-transition: opacity 2s ease-out;
+  -o-transition: opacity 2s ease-out;
+  transition: opacity 2s ease-out;
 }
 
 .carrousel-image figure img:hover {
@@ -105,8 +114,8 @@ article{
 /*End Carrousel*/
 
 /*Begin Footer*/
-footer{
 
+footer{
 	width:100%;
 	background-color:rgb(41,50,109);
 	font-size:18px;
