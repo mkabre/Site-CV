@@ -21,6 +21,7 @@ body{
 	margin:0%;
 	clear:both;
 	height:100%;
+	border-radius:15px;
 }
 
 .nav a, .nav a:visited{
@@ -36,6 +37,10 @@ body{
 .nav img{
 	position:relative;
 	width:70%;
+	margin:auto;
+	padding:auto;
+}
+.nav li{
 	margin:auto;
 }
 
@@ -61,17 +66,24 @@ article{
 	position:relative;
 	text-align: left;
 	overflow:hidden;
+	}
+
+.carrousel-image img{
+	margin:0%;
 }
+
 /*Begin Footer*/
 footer{
 	width:100%;
-	background-color:rgb(53,63,151);
+	background-color:rgb(41,50,109);
 	font-size:18px;
 	padding:0px;
 	margin:0px;
 	color:white;
 	font-weight:bold;
 	padding:1%;
+	width: 100%;
+	bottom: 0;
 }
 
 footer p{
