@@ -2,31 +2,43 @@ body{
 	background-color:rgb(241,214,163);
 	font-family:sans-serif;
 }
-
+h1{
+	margin-top:20%;
+}
 
 /*Begin Nav Bar*/
 .nav{
-	position:absolute;
+	position:fixed;
 	width:100%;
 	padding:0%;
-	margin:0px;
+	margin:-20% 0 0 -1%;
 	color:white;
 	font-weight:bold;
 	display:inline-block;
 	background-color:slategray;
 
 }
-
-.nav img{
+ 
+ .nav img{
 	position:relative;
 	width:10%;
 	padding:1%;
+	opacity:1;
+	-webkit-transition: opacity 0.2s ease-out;
+	-moz-transition: opacity 0.2s ease-out;
+	-o-transition: opacity 0.2s ease-out;
+	transition: opacity 0.2s ease-out;
 }
 
 .nav li{
 	padding:0%;
 	margin:0;
 	display:inline;
+	
+}
+
+.nav img:hover{
+	opacity:0.4;
 }
 
 .expanded_menu{
@@ -147,7 +159,7 @@ footer{
 
 .copyright{
 	display:block;
-	padding-top:2%;
+	padding:2%;
 	margin:0;
 }
 /*End Footer*/
