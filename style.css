@@ -37,9 +37,9 @@ body{
 .nav img{
 	position:relative;
 	width:70%;
-	margin:auto;
-	padding:auto;
+	margin:20px;
 }
+
 .nav li{
 	margin:auto;
 }
