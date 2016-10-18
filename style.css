@@ -124,7 +124,7 @@ footer{
 	color:white;
 	font-weight:bold;
 	bottom: 0;
-	border-radius:15px;
+	border-radius:15px 15PX 0px 0px;
 	text-align:center;
 }
 
