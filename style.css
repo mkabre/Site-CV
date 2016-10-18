@@ -19,20 +19,21 @@ body{
 	background-color:rgb(41,50,109);
 	width:90%;
 	margin:0%;
-	clear:both;
 	height:100%;
 	border-radius:15px;
 }
 
-.nav a, .nav a:visited{
+.nav a {
 	color:white;
 	text-decoration:none;
 }
 
-.nav a:hover{
+.expanded_menu a:visited{
 	color:gray;
 	text-decoration:none;
 }
+
+
 
 .nav img{
 	position:relative;
@@ -48,8 +49,22 @@ body{
 	display:none;
 }
 
+.expanded_menu li{
+	margin:20% 5% 0% 0%;
+	font-size: 6em;
+
+}
+
 .bar:hover + .expanded_menu{
 	display:block;
+}
+
+.expanded_menu a:hover +.expanded_menu{
+	display:block;
+}
+
+.bar:hover + .nav{
+	width:20%;
 }
 
 
@@ -71,6 +86,7 @@ article{
 
 /*Begin Footer*/
 footer{
+
 	width:100%;
 	background-color:rgb(41,50,109);
 	font-size:18px;
@@ -79,19 +95,17 @@ footer{
 	color:white;
 	font-weight:bold;
 	padding:1%;
-	width: 100%;
 	bottom: 0;
 	border-radius:15px;
-}
-
-footer p{
-	text-align:right;
+	text-align:center;
 }
 
 footer img{
-	width:2%;
-	height:2%;
+	position:relative;
+	width:15%;
+	padding:1%;
 }
+
 .copyright{
 	font-size:60%;
 	display:block;
