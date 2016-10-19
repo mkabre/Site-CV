@@ -19,13 +19,48 @@ h2{
 	border-right:3px darkblue solid;
 	padding:1%;
 }
+/*Begin Desktop navbar*/
+.nav_desktop{
+	display:flex;
+	list-style-type:none;
+	width:100%;
+	border:black 1px solid;
+	margin-left:0%;
+	padding-left:0%;
+	margin-right:0%;
+	padding-right:0%;
+}
+.nav_desktop li{
+	margin:auto;
+	padding:auto;
+}
+.contact_menu{
+	display:none;
+	position:absolute;
+	margin:auto;
+	padding:auto;
+}
+.bar:hover + .contact_menu{
+	display:block;
+	position:absolute;
 
+}
+.contact_menu > li{
+	margin:auto;
+	padding:auto;
+	position:relative;
+}
+.contact_menu img{
+	position:relative;
+	width:5%;
+}
+/*end Desktop navbar*/
 /*Begin Nav Bar*/
 .nav{
 	/*position:fixed;*/
 	width:15%;
 	/*padding:0%;*/
-	margin-top: 0;
+	margin-top: -15%;
 	color:white;
 	display:inline;
 	font-weight:bold;
@@ -33,7 +68,6 @@ h2{
 	border-radius: 6PX
 	z-index:1;
 	position:fixed;
-	margin-left:1%;
 	opacity:0.5;
 	-webkit-transition: opacity 0.1s ease-out;
 	-moz-transition: opacity 0.1s ease-out;
@@ -77,12 +111,13 @@ h2{
 .expanded_menu{
 	display:none;
 	padding:0;
+	margin-top:-87%;
 
 }
 
 .bar:hover + .expanded_menu{
 	display:block;
-	margin-top:14%;
+	
 	padding-left:13%;
 	background-color:rgba(126,125,126,0.7);
 	position:absolute;
