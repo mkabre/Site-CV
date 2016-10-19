@@ -2,9 +2,12 @@ body{
 	background-color:rgb(241,214,163);
 	font-family:sans-serif;
 }
-
 h1{
 	margin-top:20%;
+}
+h2{
+	border-left:3px darkblue solid;
+	padding:3%;
 }
 
 /*Begin Nav Bar*/
@@ -15,8 +18,10 @@ h1{
 	margin:-20% 0 0 -1%;
 	color:white;
 	font-weight:bold;
-	display:inline-block;
+	display:inline;
 	background-color:slategray;
+	z-index:1;
+
 }
  
  .nav img{
@@ -84,6 +89,8 @@ h1{
 	display:block;
 	margin:0;
 	padding:3%;
+
+
 }
 
 /*End Nav Bar*/
@@ -92,13 +99,8 @@ article{
 	text-align:justify;
 	padding:2%;
 }
-
-#competences ol{
-display:none;
-}
-
-#competences li:hover + ol{
-	display:block;
+aside h2{
+	margin-left:2%;
 }
 
 /*Begin Carrousel*/
@@ -117,15 +119,15 @@ display:none;
 
 
 @keyframes slidy {
-  0% { left: 0%; }
-  15% { left: 0%; }
-  20% { left: -100%; }
-  35% { left: -100%; }
-  40% { left: -200%; }
-  55% { left: -200%; }
-  60% { left: -300%; }
-  75% { left: -300%; }
-  80% { left: -400%; }
+	0% { left: 0%; }
+	15% { left: 0%; }
+	20% { left: -100%; }
+	35% { left: -100%; }
+	40% { left: -200%; }
+	55% { left: -200%; }
+	60% { left: -300%; }
+	75% { left: -300%; }
+	80% { left: -400%; }
 	95% { left: -400%; }
 }
 
@@ -169,23 +171,3 @@ footer{
 	margin:0;
 }
 /*End Footer*/
-
-
-/*Begin tablet display*/
-@media (max-width:1366px) and (min-width:768px) {
- body{
- 	font-size:2em;
- 	 }
- 	 .expanded_menu li{
- 	 	font-size:1em;
- 	 }
-
- 	 .nav {
-
-  	 }  	 
-}
-/*End tablet display*/
-
-/*Begin desktop display*/
-
-/*End desktop display*/
