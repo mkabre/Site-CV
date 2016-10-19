@@ -95,12 +95,22 @@ h2{
 
 /*End Nav Bar*/
 
+/*end contact form*/
+
 article{
 	text-align:justify;
 	padding:2%;
 }
 aside h2{
 	margin-left:2%;
+}
+
+#competences ol{
+display:none;
+}
+
+#competences li:hover + ol{
+	display:block;
 }
 
 /*Begin Carrousel*/
@@ -171,3 +181,15 @@ footer{
 	margin:0;
 }
 /*End Footer*/
+
+/*Begin tablet display*/
+@media (min-width:768px) and (max-width:1366px) {
+ 
+}
+/*End tablet display*/
+
+/*Begin desktop display*/
+@media (min-width:1366px) {
+ 
+}
+/*End desktop display*/
