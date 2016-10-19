@@ -12,20 +12,20 @@ h2{
 
 /*Begin Nav Bar*/
 .nav{
-	position:fixed;
+	/*position:fixed;*/
 	width:100%;
-	padding:0%;
+	/*padding:0%;*/
 	margin:-20% 0 0 -1%;
-	color:white;
+	/*color:white;*/
 	font-weight:bold;
-	display:none;
+	display:inline;
 	background-color:slategray;
 	z-index:1;
 
 }
  
  .nav img{
-	position:relative;
+	/*position:relative;*/
 	width:10%;
 	padding:1%;
 	opacity:1;
@@ -38,7 +38,7 @@ h2{
 .nav li{
 	padding:0%;
 	margin:0;
-	display:inline;
+	/*display:inline;*/
 	
 }
 

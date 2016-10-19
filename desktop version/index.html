@@ -5,10 +5,10 @@
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    [if lt IE 9]>
+    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    [endif]
+    <![endif]-->
 
 		<title>Mélissa Kabré</title>
 	</head>
@@ -16,7 +16,7 @@
 		
 		<header>
 		<nav>
-			<ul style="list-style-type:none" class="nav">
+			<ul style="list-style-type:none" class="nav" class="list-inline">
 				<li class="bar"><img src="logos/bar.png" alt="Menu"/></li>
 					<ul class="expanded_menu" style="list-style-type:none">
 						<li><a href=#experience>Expérience</a></li>
@@ -45,23 +45,29 @@
 	      		<p>formation machin experience bidule, cherche boulot</p>
 	      		<p>motivée polyvalente blablabla</p>
 	      	</article>
-			<article id="experience">
+			<div class="container">
+
+  <div class="row">
+    <div class="col-lg-5">
+      <article id="experience">
 				<h2>Expérience</h2>
 				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
 			</article>
-			<article id="formation">
+    </div> 
+    <div class="col-lg-5">
+      <article id="formation">
 				<h2>Formation</h2>
 				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
 			</article>
-			<article id="competences">
+    </div> <!-- end col-md-1 -->
+    <div class="col-lg-5">
+      <article id="competences">
 				<h2>Compétences</h2>
 				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
 			</article>
-			<article id="savoirplus">
-				<h2>En savoir plus</h2>
-				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
-			</article>
-			<aside>
+    </div> <!-- end col-md-1 -->
+    <div class="col-lg-5">
+      <aside>
 				<h2>Mes voyages</h2>
 				<div class="carrousel-image">
 					<figure>
@@ -73,9 +79,18 @@
 					</figure>	
 				</div>
 			</aside>
+    </div> <!-- end col-md-1 -->
+    <div class="col-lg-5">
+      <article id="savoirplus">
+				<h2>En savoir plus</h2>
+				<p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
+			</article>
+    </div> <!-- end col-md-1 -->
+  </div>	
+			
 		</section>
 		<section>
-			
+		
 		</section>
 		<footer>
 		<p class="copyright">Copyright© 2016. Tous droits réservés.</p>
