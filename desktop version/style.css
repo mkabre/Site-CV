@@ -16,16 +16,16 @@ h2{
 	width:100%;
 	/*padding:0%;*/
 	margin:-20% 0 0 -1%;
-	/*color:white;*/
-	font-weight:bold;
+	color:white;
 	display:inline;
+	font-weight:bold;
 	background-color:slategray;
 	z-index:1;
 
 }
  
  .nav img{
-	/*position:relative;*/
+	position:relative;
 	width:10%;
 	padding:1%;
 	opacity:1;
@@ -33,12 +33,13 @@ h2{
 	-moz-transition: opacity 0.2s ease-out;
 	-o-transition: opacity 0.2s ease-out;
 	transition: opacity 0.2s ease-out;
+	display:flex;
+	flex-direction:row;
 }
 
 .nav li{
 	padding:0%;
 	margin:0;
-	/*display:inline;*/
 	
 }
 
